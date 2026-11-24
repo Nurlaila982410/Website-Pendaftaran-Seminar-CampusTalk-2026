@@ -1,0 +1,84 @@
+
+    body {
+        font-family: Cambria, serif;
+        background-color: #eaf4ff;
+        color: #333333;
+        margin: 0;
+        padding: 30px;}
+
+    h1 {
+        color: #003366;
+        text-align: center;
+        background-color: #b3d9ff;
+        padding: 20px;
+        border-radius: 10px;}
+
+    .formulir {
+        background-color: white;
+        width: 60%;
+        margin: 30px auto;
+        padding: 30px;
+        border-radius: 10px;}
+
+    h2 {
+        color: #003366;
+        text-align: center;}
+
+    .keterangan {
+        font-size: 14px;
+        color: #555555;}
+
+    .bintang {
+        color: red;}
+
+    label {
+        display: block;
+        margin-top: 15px;
+        font-weight: bold;}
+
+    input, select, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #99c2e6;
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-family: Cambria, serif;}
+
+    input:focus, select:focus, textarea:focus {
+        outline: none;
+        border: 2px solid #003366;}
+
+    button {
+        background-color: #003366;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        cursor: pointer;
+        font-family: Cambria, serif;}
+
+    button:hover {
+        background-color: #0059b3;}
+
+    .reset {
+        background-color: #777777;}
+
+    .kembali {
+        text-align: center;
+        margin-top: 25px;}
+
+    .kembali a {
+        color: #003366;
+        text-decoration: none;
+        font-weight: bold;}
+
+    .kembali a:hover {
+        color: #0059b3;
+        text-decoration: underline;}
+
+
+
+/* 
+        https://github.com/Nurlaila982410/Website-Pendaftaran-Seminar-CampusTalk-2026.git */
