@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Evaluasi CampusTalk 2026</title>
+</head>
+
+<body>
+
+    <h1>Evaluasi Seminar CampusTalk 2026</h1>
+
+    <div class="formulir" id="formulir">
+
+        <h2>Formulir Evaluasi</h2>
+
+        <form onsubmit="kirimEvaluasi(event)">
+
+            <label>Nama Peserta</label>
+            <input type="text" name="nama" required>
+
+            <label>Penilaian Seminar</label>
+            <select name="penilaian" required>
+                <option value="">Pilih Penilaian</option>
+                <option>Sangat Baik</option>
+                <option>Baik</option>
+                <option>Cukup</option>
+                <option>Kurang</option>
+            </select>
+
+            <label>Penilaian Pembicara</label>
+            <select name="pembicara" required>
+                <option value="">Pilih Penilaian</option>
+                <option>Sangat Baik</option>
+                <option>Baik</option>
+                <option>Cukup</option>
+                <option>Kurang</option>
+            </select>
+
+            <label>Kritik dan Saran</label>
+            <textarea name="saran" rows="4" required></textarea>
+
+            <button type="submit">Kirim</button>
+            <button type="reset">Reset</button>
+
+        </form>
+
+    </div>
+
+    <div class="formulir" id="hasil" style="display:none;">
+
+        <h2>Terima Kasih!</h2>
+        <p>Evaluasi seminar berhasil dikirim.</p>
+        <p>Nama: <span id="nama"></span></p>
+        <p>Penilaian: <span id="nilai"></span></p>
+        <p>Pembicara: <span id="hasilPembicara"></span></p>
+        <p>Saran: <span id="hasilSaran"></span></p>
+
+        <a href="index.html">Kembali ke Beranda</a>
+
+    </div>
+
+
+<script src="evaluasi.js"></script>
+
+</body>
+</html>
