@@ -1,48 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Beranda CampusTalk 2026</title>
+
+    <style>
+        body {
+            font-family: Cambria, serif;
+            background-color: #eaf4ff;
+            color: #333333;
+            margin: 0;
+            padding: 30px;}
+      
+
+        h1 {
+            text-align: center;
+            color: #003366;
+            background-color: #b3d9ff;
+            padding: 25px;
+            border-radius: 10px;}
+        
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px #b5cde3;
+            text-align: center;}
+        
+
+        h2 {
+            color: #0059b3;}
+       
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;}
+       
+
+        button {
+            width: 100%;
+            background-color: #0066cc;
+            color: white;
+            padding: 12px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            font-family: Cambria, serif;}
+        
+
+        button:hover {
+            background-color: #003366;}
+       
+    </style>
 </head>
 
 <body>
 
-    <h1>Selamat Datang di CampusTalk 2026</h1>
+    <h1>CampusTalk 2026</h1>
 
-    <p>Future Ready: Preparing Students for the Digital Era</p>
+    <div class="container">
 
-    <div class="informasi">
+        <h2>Selamat Datang di CampusTalk 2026</h2>
+
+        <p>
+            Future Ready: Preparing Students for the Digital Era
+        </p>
+
+        <p>
+            CampusTalk 2026 merupakan kegiatan seminar
+            teknologi informasi yang memberikan kesempatan
+            kepada mahasiswa untuk menambah wawasan dan
+            pengetahuan di bidang teknologi.
+        </p>
+
         <h2>Informasi Seminar</h2>
 
         <p>Seminar Teknologi Informasi</p>
+
         <p>Tanggal: 15 November 2026</p>
-        <p>Waktu: 08.00 - 13.00 WITA</p>
+
+        <p>Waktu: 08.00–13.00 WITA</p>
+
         <p>Tempat: Aula Kampus</p>
+
+        <button onclick="window.location.href='index2.html'">
+            Daftar sebagai Pembicara
+        </button>
+
+        <button onclick="window.location.href='form.html'">
+            Daftar sebagai Peserta
+        </button>
+
+
     </div>
 
-    <div class="tentang">
-        
-        
-<h2 id="judul">CampusTalk 2026</h2>
-
-<p>Apakah kamu sudah siap mengikuti seminar?</p>
-
-<button onclick="sapa()">Siap!</button>
-
-<p id="hasil"></p>
-
-
-        <h2>Tentang Seminar</h2>
-
-        <p>
-            Seminar ini membahas perkembangan teknologi digital
-            dan persiapan mahasiswa menghadapi era digital.
-        </p>
-
-                <div class="Daftar">
-            <a href="form.html">Daftar Sekarang</a>
-        </div>
-    </div>
-
-    <script src="index.js"></script>
 </body>
 </html>
